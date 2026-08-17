@@ -60,6 +60,30 @@ Faculty
 Academic coordinators
 Mentors
 Students
+## 6.1. Functional Requirements
+The system should:
+Accept student details.
+Validate user inputs.
+Store/process student information.
+Preprocess input data.
+Apply the trained ML model.
+Predict student performance.
+Generate recommendations.
+Display results through the GUI.
+Handle invalid inputs.
+Provide a reset/clear option.
+
+## 6.2. Non-Functional Requirements
+The application should be:
+User-friendly
+Easy to understand
+Fast in generating predictions
+Reliable
+Maintainable
+Scalable
+Secure with respect to student data
+Easy to test
+
 
 ## 7. User Requirement
 The user should be able to:
@@ -105,26 +129,3 @@ Risk Level: Low
 Recommendation: Maintain current study pattern and attendance
 
 
-## 11. Functional Requirements
-The system should:
-Accept student details.
-Validate user inputs.
-Store/process student information.
-Preprocess input data.
-Apply the trained ML model.
-Predict student performance.
-Generate recommendations.
-Display results through the GUI.
-Handle invalid inputs.
-Provide a reset/clear option.
-
-## 12. Non-Functional Requirements
-The application should be:
-User-friendly
-Easy to understand
-Fast in generating predictions
-Reliable
-Maintainable
-Scalable
-Secure with respect to student data
-Easy to test
