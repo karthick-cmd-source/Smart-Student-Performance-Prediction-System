@@ -36,13 +36,14 @@ End
 
 ## 4. Project Mapping
 | V-Model Stage |	Smart Student Project |
- |Requirement Analysis |	Identify student performance problem |
-| System Design |	Design system architecture and UI |
-| Implementation	| Develop Python + ML application |
-| Integration |	Integrate UI, ML and AI |
-| Testing	| Test individual modules and complete system |
-| Validation	| Check system against requirements |
-| Demonstration |	Present working capstone |
+| :--- | :--- | :--- |
+ |**Requirement Analysis** |	Identify student performance problem |
+| **System Design** |	Design system architecture and UI |
+| **Implementation**	| Develop Python + ML application |
+| **Integration** |	Integrate UI, ML and AI |
+| **Testing**	| Test individual modules and complete system |
+| **Validation**	| Check system against requirements |
+| **Demonstration** |	Present working capstone |
 
 ## 5. Project – Modular Application Development
 Create separate functions:
