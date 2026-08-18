@@ -193,7 +193,15 @@ The application should contain
 
 
 ## Workflow
+flowchart TD
+    A[User clicks Predict] --> B[Button generates event]
+    B --> C[Callback function executes]
+    C --> D[Prediction processing starts]
+    D --> E[Input data is collected]
+    E --> F[Data preprocessing]
+    F --> G[Machine Learning Model]
+    G --> H[Prediction is generated]
+    H --> I[Display prediction result to user]
 
-When the user clicks the Predict button, it generates an event, the callback function executes, and Python processing starts.
 
 
