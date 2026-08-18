@@ -193,6 +193,9 @@ The application should contain
 
 
 ## Workflow
+## Workflow
+
+```mermaid
 flowchart TD
     A[User clicks Predict] --> B[Button generates event]
     B --> C[Callback function executes]
@@ -202,6 +205,4 @@ flowchart TD
     F --> G[Machine Learning Model]
     G --> H[Prediction is generated]
     H --> I[Display prediction result to user]
-
-
-
+```
