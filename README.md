@@ -160,8 +160,7 @@ End
 
 ## 13. Proposed System Architecture
 
-The system follows a sequence in which the Tkinter UI collects student data, input validation checks the entered values, data processing prepares the data for the ML model, the ML Prediction Engine predicts student performance, and the final result with AI-based recommendations is displayed.
-<img width="1515" height="3952" alt="NoteGPT-Flowchart-1787063267494" src="https://github.com/user-attachments/assets/5bb2c16b-672b-4cd9-8c97-ce604971480a" />
+<img width="515" height="952" alt="NoteGPT-Flowchart-1787063267494" src="https://github.com/user-attachments/assets/5bb2c16b-672b-4cd9-8c97-ce604971480a" />
 
 ## 14. UI Design Requirements
 
