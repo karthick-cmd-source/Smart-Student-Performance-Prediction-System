@@ -162,19 +162,38 @@ End
 
 The system follows a sequence in which the Tkinter UI collects student data, input validation checks the entered values, data processing prepares the data for the ML model, the ML Prediction Engine predicts student performance, and the final result with AI-based recommendations is displayed.
 
-## UI Design Requirements
+## 14. UI Design Requirements
 
 The application should contain 
 ### 1. Student Information Section
 - Student ID
 - Student Name
-  ### 2.  Academic Information Section with Attendance, Study Hours, Internal Marks, Assignment Completion, and Previous Performance, an Action Section with Predict Performance, Clear, and Exit buttons, and a Result Section displaying Predicted Performance, Risk Level, and Recommendation.
+### 2.  Academic Information Section
+ - Attendance
+ - Study Hours
+ - Internal Marks
+ - Assignment Completion
+ - Previous Performance
+### 3. Action Section
+ - Predict Performance
+ - Clear
+ - Exit buttons
+### 4. Result Section
+ - Predicted Performance
+ - Risk Level
+ - Recommendation.
+## 15. Using Frames
+
+### The main window: 
+- Header frames
+- student information
+- Academic information
+- Header frame
+- Results frame
+
 
 ## Workflow
 
 When the user clicks the Predict button, it generates an event, the callback function executes, and Python processing starts.
 
-## Using Frames
-
-The main window should contain separate frames for the header, student information, academic information, actions, and results.
 
