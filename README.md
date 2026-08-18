@@ -13,28 +13,26 @@
 - Generate intelligent recommendations.
 - Display the results through a user-friendly Tkinter interface.
 
-## 3. Process Flow
+## Flowchart
 
+```text
 Start
-↓
+  ↓
 Enter Student Details
-↓
+  ↓
 Validate Input
-↓
+  ↓
 Preprocess Data
-↓
+  ↓
 ML Prediction
-↓
+  ↓
 Determine Performance Level
-↓
+  ↓
 Generate AI Recommendation
-↓
+  ↓
 Display Result
-↓
-End
-
-
-## 4. Project Mapping
+  ↓
+End## 4. Project Mapping
 | V-Model Stage |	Smart Student Project |
 | :--- | :--- | :--- |
  |**Requirement Analysis** |	Identify student performance problem |
