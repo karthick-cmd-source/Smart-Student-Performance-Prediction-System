@@ -14,8 +14,6 @@
 - Display the results through a user-friendly Tkinter interface.
 
 ## Flowchart
-
-```text
 Start
   ↓
 Enter Student Details
@@ -33,7 +31,7 @@ Generate AI Recommendation
 Display Result
   ↓
 End
- ```text
+
 ## Project Mapping
 
 | V-Model Stage | Smart Student Project |
