@@ -183,16 +183,13 @@ The application should contain
  - Risk Level
  - Recommendation.
 ## 15. Using Frames
-
-### 16 The main window: 
+### The main window: 
 - Header frames
 - student information
 - Academic information
 - Header frame
 - Results frame
-
-
-## 17 Workflow
+## 17. Workflow
 ```mermaid
 flowchart TD
     A[User clicks Predict] --> B[Button generates event]
