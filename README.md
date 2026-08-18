@@ -126,21 +126,49 @@ End
 - Risk Level: Low
 - Recommendation: Maintain current study pattern and attendance
 
-## Objective
+## 11. Objective
 
-The objective is to understand the System Design phase of the V-Model, convert Day 1 requirements into a software architecture, design the workflow of the Smart Student Performance Prediction System, understand GUI development using Tkinter, create windows, frames, labels, input fields, buttons, and message boxes, apply pack(), grid(), and place() for layout management, implement event-driven programming using button callbacks, validate user inputs, and develop a functional Tkinter prototype.
+- Understand the System Design phase of the V-Model
+- convert Day 1 requirements into a software architecture
+- Design the workflow of the Smart Student Performance Prediction System
+- Understand GUI development using Tkinter
+- Create windows, frames, labels, input fields, buttons, and message boxes
+- Apply pack(), grid(), and place() for layout management
+- Implement event-driven programming using button callbacks, validate user inputs
+- Develop a functional Tkinter prototype.
 
-## From Requirements to System Design
+## 12. From Requirements to System Design
 
-The system accepts Student ID, Student Name, Attendance percentage, Study Hours, Internal Marks, Assignment Completion percentage, and Previous Academic Performance as inputs. The system validates and preprocesses the input data, sends it to the ML model, generates a performance prediction and recommendation, and produces outputs such as predicted performance, performance category, risk level, and recommendation.
+### Input 
+- Student ID,
+- Student Name
+- Attendance percentage
+- Study Hours
+- Internal Marks
+- Assignment Completion percentage
+- Previous Academic Performance as inputs
+  ### Processing
+- validates input
+- Preprocesses data
+- send data to ML model,
+- Generates prediction
+-  Generates recommendation
+  ### Outputs
+-  predicted performance
+-  performance category, risk level
+-  Recommendation.
 
-## Proposed System Architecture
+## 13. Proposed System Architecture
 
 The system follows a sequence in which the Tkinter UI collects student data, input validation checks the entered values, data processing prepares the data for the ML model, the ML Prediction Engine predicts student performance, and the final result with AI-based recommendations is displayed.
 
 ## UI Design Requirements
 
-The application should contain a Student Information Section with Student ID and Student Name, an Academic Information Section with Attendance, Study Hours, Internal Marks, Assignment Completion, and Previous Performance, an Action Section with Predict Performance, Clear, and Exit buttons, and a Result Section displaying Predicted Performance, Risk Level, and Recommendation.
+The application should contain 
+### 1. Student Information Section
+- Student ID
+- Student Name
+  ### 2.  Academic Information Section with Attendance, Study Hours, Internal Marks, Assignment Completion, and Previous Performance, an Action Section with Predict Performance, Clear, and Exit buttons, and a Result Section displaying Predicted Performance, Risk Level, and Recommendation.
 
 ## Workflow
 
