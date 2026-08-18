@@ -43,22 +43,21 @@ End
 | Testing | Test individual modules and complete system |
 | Validation | Check system against requirements |
 | Demonstration | Present working capstone |
+
 ## 5. Project – Modular Application Development
-Create separate functions:
-get_student_data()
-calculate_average()
-calculate_performance()
-display_result()
+### Create separate functions:
+- get_student_data()
+- calculate_average()
+- calculate_performance()
+- display_result()
 
 ## 6. Requirement Analysis
-Identify the User
-
-Primary users may include:
-
-Faculty
-Academic coordinators
-Mentors
-Students
+### Identify the User
+- Primary users may include:
+- Faculty
+- Academic coordinators
+- Mentors
+- Students
 ## 6.1. Functional Requirements
 The system should:
 Accept student details.
