@@ -6,12 +6,12 @@
 - The system can provide recommendations for improving student outcomes.
 
 ## 2. Proposed Solution
-Collect student-related information.
-Process the entered data.
-Use a Machine Learning model to predict performance.
-Classify students based on predicted performance.
-Generate intelligent recommendations.
-Display the results through a user-friendly Tkinter interface.
+- Collect student-related information.
+- Process the entered data.
+- Use a Machine Learning model to predict performance.
+- Classify students based on predicted performance.
+- Generate intelligent recommendations.
+- Display the results through a user-friendly Tkinter interface.
 
 ## 3. Process Flow
 
