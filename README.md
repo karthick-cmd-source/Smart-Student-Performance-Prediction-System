@@ -160,7 +160,7 @@ End
 
 ## 13. Proposed System Architecture
 
-<img width="515" height="952" alt="NoteGPT-Flowchart-1787063267494" src="https://github.com/user-attachments/assets/5bb2c16b-672b-4cd9-8c97-ce604971480a" />
+<img width="300" height="500" alt="NoteGPT-Flowchart-1787063267494" src="https://github.com/user-attachments/assets/5bb2c16b-672b-4cd9-8c97-ce604971480a" />
 
 ## 14. UI Design Requirements
 
