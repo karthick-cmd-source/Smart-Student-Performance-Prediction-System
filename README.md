@@ -190,5 +190,5 @@ flowchart TD
     C --> D[Python processing starts]
 ```
 ## 18. Design
-<img width="250" height="1000" alt="image" src="https://github.com/user-attachments/assets/2dd4736f-da4c-4cde-b9e2-c7bedd3403c1" />
+<img width="950" height="400" alt="image" src="https://github.com/user-attachments/assets/2dd4736f-da4c-4cde-b9e2-c7bedd3403c1" />
 
