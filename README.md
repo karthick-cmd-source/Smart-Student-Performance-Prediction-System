@@ -33,7 +33,7 @@ Generate AI Recommendation
 Display Result
   ↓
 End
-
+ ```text
 ## 4. Project Mapping
 | V-Model Stage |	Smart Student Project |
 | :--- | :--- | :--- |
