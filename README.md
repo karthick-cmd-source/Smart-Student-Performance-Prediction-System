@@ -184,7 +184,7 @@ The application should contain
  - Recommendation.
 ## 15. Using Frames
 
-### The main window: 
+### 16 The main window: 
 - Header frames
 - student information
 - Academic information
@@ -192,9 +192,7 @@ The application should contain
 - Results frame
 
 
-## Workflow
-## Workflow
-
+## 17 Workflow
 ```mermaid
 flowchart TD
     A[User clicks Predict] --> B[Button generates event]
