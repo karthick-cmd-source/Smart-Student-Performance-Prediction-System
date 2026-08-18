@@ -14,24 +14,17 @@
 - Display the results through a user-friendly Tkinter interface.
 
 ## 3. Flowchart
-Start
-  ↓
-Enter Student Details
-  ↓
-Validate Input
-  ↓
-Preprocess Data
-  ↓
-ML Prediction
-  ↓
-Determine Performance Level
-  ↓
-Generate AI Recommendation
-  ↓
-Display Result
-  ↓
-End
-
+```mermaid
+flowchart TD
+    A[Start] --> B[Enter Student Details]
+    B --> C[Validate Input]
+    C --> D[Preprocess Data]
+    D --> E[ML Prediction]
+    E --> F[Determine Performance Level]
+    F --> G[Generate AI Recommendation]
+    G --> H[Display Result]
+    H --> I[End]
+```
 ## 4. Project Mapping
 
 | V-Model Stage | Smart Student Project |
