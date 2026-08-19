@@ -191,4 +191,71 @@ flowchart TD
 ```
 ## 18. Requirements Design
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/2dd4736f-da4c-4cde-b9e2-c7bedd3403c1" />
+## 19. Objective
+- Understand the fundamentals of Machine Learning (ML)
+- Differentiate between traditional programming and ML-based systems
+- Work with datasets using Pandas & NumPy
+- Perform data preprocessing and feature selection
+- Train a Machine Learning model for prediction
+- Evaluate model performance using basic metrics
+- Replace Day 2 rule-based logic with an ML-based prediction system
+- Prepare the ML model for integration with Tkinter UI
 
+## 19. OUTCOMES
+### Should complete:
+- Dataset (CSV file)
+- Data preprocessing code
+- Trained ML model
+- Accuracy report
+- Prediction function
+- Saved model file (.pkl)
+## 20. Traditional Programming vs ML
+
+| Traditional Programming | Machine Learning |
+|---|---|
+| Rules are written manually | Model learns rules from data |
+| Output = Logic + Input | Output = Model + Input |
+| Fixed logic | Adaptive learning |
+## 21. ML Workflow
+```mermaid
+flowchart TD
+    A[Data Collection] --> B[Data Preprocessing]
+    B --> C[Feature Selection]
+    C --> D[Model Training]
+    D --> E[Model Evaluation]
+    E --> F[Prediction]
+```
+## 22. ML WORKFLOW
+### Activity 1 – Dataset Creation
+Create student dataset in CSV
+Add 20–50 records
+### Activity 2 – Data Loading
+Load dataset using Pandas
+Display dataset
+### Activity 3 – Data Cleaning
+Remove missing values
+Check data types
+### Activity 4 – Model Training
+Train Logistic Regression model
+Split dataset
+### Activity 5 – Model Evaluation
+Calculate accuracy
+Analyze results
+### Activity 6 – Prediction
+Test model with new input
+### Activity 7 – Save Model
+Save model using Pickle
+## 23. Problem Type
+### For this Project:
+- Classification Problem
+### Output categories:
+- Excellent
+- Good
+- Average
+- At Risk
+### Regression Problem
+- Output = Performance Score (0–100)
+## 24. Model Selection
+### Algorithms Introduced
+- Logistic Regression
+  
