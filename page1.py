@@ -293,4 +293,8 @@ output_recommendation = tk.Label(
 output_recommendation.grid(row=13, column=0, columnspan=8, pady=5)
 
 
+<<<<<<< HEAD
 root.mainloop()
+=======
+root.mainloop()
+>>>>>>> 9674dad035668b4fa91881d3e690de626217644a
