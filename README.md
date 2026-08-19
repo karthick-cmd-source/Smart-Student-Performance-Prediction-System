@@ -191,6 +191,8 @@ flowchart TD
 ```
 ## 18. Requirements Design
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/2dd4736f-da4c-4cde-b9e2-c7bedd3403c1" />
+
+
 ## 19. Objective
 - Understand the fundamentals of Machine Learning (ML)
 - Differentiate between traditional programming and ML-based systems
