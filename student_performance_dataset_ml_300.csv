@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Student ID,Name,Attendance,Study Hours,Internal Marks,Assignment Completion,Previous Performance,Prediction,Risk Level,Recommendation,Email
 STU001,Student_001,88.0,7,96.0,88.0,87.0,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.,
 STU002,Student_002,98.0,8,97.0,100.0,98.0,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.,
@@ -304,3 +305,307 @@ STU300,Student_300,66.0,2,59.0,40.0,48.0,AT RISK,HIGH,"Improve attendance, study
 123,karthick,50.0,1,50.0,50.0,50.0,AT RISK,HIGH,"Karthick, your internal marks, assignment completion, and previous performance show a consistent foundation at 50 percent, but your attendance of 50 percent is the single main area that needs improvement and places you at high risk according to our ML prediction. To help you succeed, please increase your daily study hours from 1 hour, attend more classes regularly, and complete all your assignments on time.",karthick999491@gmail.com
 12345,sudhakaar,100.0,4,100.0,100.0,100.0,EXCELLENT,VERY LOW,"Sudhakaar, your 100% attendance, perfect internal marks, complete assignments, and stellar previous performance show your incredible dedication and consistency, earning you an excellent machine learning prediction and very low risk level. However, since every student can always find something to refine, your main area for improvement is ensuring you take necessary mental breaks to balance your daily four hours of studying. To keep up your amazing work, try scheduling short five-minute rest breaks during your study sessions and maintain your current daily routines.",ss5181373@gmail.com
 12345,sudhakaar,100.0,4,100.0,100.0,100.0,EXCELLENT,VERY LOW,"Sudhakaar, your 100% attendance, perfect internal marks, complete assignments, and exceptional previous performance highlight your outstanding dedication and consistent study habits of 4 hours per day, which support your excellent ML prediction and very low risk level. Since you have achieved perfection across all academic metrics, your main area for improvement is to maintain this stellar momentum while avoiding burnout. To continue thriving, practical actions include taking regular breaks during your study sessions and exploring advanced reading materials in your subjects to keep yourself challenged.",muthuselvangceb@outlook.com
+=======
+Student ID,Name,Attendance,Study Hours,Internal Mark,Assignment Completion,Previous Performance,Prediction,Risk Level,Recommendation
+STU001,Student_001,88,7,96,88,87,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU002,Student_002,98,8,97,100,98,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU003,Student_003,99,6,80,87,83,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU004,Student_004,94,6,94,85,95,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU005,Student_005,95,6,92,93,91,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU006,Student_006,96,7,96,87,90,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU007,Student_007,87,8,97,94,89,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU008,Student_008,99,6,100,94,80,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU009,Student_009,96,7,94,98,82,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU010,Student_010,97,8,97,100,83,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU011,Student_011,98,8,99,100,92,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU012,Student_012,93,7,98,100,96,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU013,Student_013,85,8,87,89,81,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU014,Student_014,88,8,99,98,95,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU015,Student_015,89,7,87,88,100,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU016,Student_016,99,8,95,93,97,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU017,Student_017,97,8,89,100,92,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU018,Student_018,98,6,89,93,80,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU019,Student_019,86,6,100,99,96,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU020,Student_020,100,7,86,93,95,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU021,Student_021,99,8,95,98,97,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU022,Student_022,86,7,90,99,83,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU023,Student_023,99,8,96,93,94,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU024,Student_024,90,7,95,87,100,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU025,Student_025,93,7,91,88,86,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU026,Student_026,98,6,94,85,82,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU027,Student_027,85,7,98,87,99,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU028,Student_028,91,6,83,86,97,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU029,Student_029,93,8,100,96,84,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU030,Student_030,85,7,98,100,84,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU031,Student_031,92,7,98,89,99,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU032,Student_032,94,6,93,90,84,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU033,Student_033,94,8,93,97,84,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU034,Student_034,91,7,80,88,92,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU035,Student_035,87,6,91,96,80,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU036,Student_036,85,8,95,95,89,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU037,Student_037,99,7,83,100,94,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU038,Student_038,90,6,98,91,93,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU039,Student_039,95,7,99,92,82,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU040,Student_040,97,6,86,90,81,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU041,Student_041,86,7,100,91,95,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU042,Student_042,85,6,100,91,96,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU043,Student_043,89,6,85,97,88,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU044,Student_044,98,8,93,87,92,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU045,Student_045,94,6,91,90,88,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU046,Student_046,99,7,93,94,94,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU047,Student_047,90,7,96,100,94,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU048,Student_048,88,8,96,93,83,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU049,Student_049,91,6,80,87,94,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU050,Student_050,95,7,97,90,80,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU051,Student_051,96,6,91,91,83,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU052,Student_052,93,8,98,91,98,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU053,Student_053,94,8,88,89,83,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU054,Student_054,93,6,93,90,83,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU055,Student_055,86,7,85,88,96,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU056,Student_056,95,7,98,87,89,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU057,Student_057,95,6,88,93,82,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU058,Student_058,85,7,88,98,80,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU059,Student_059,86,6,87,85,89,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU060,Student_060,88,6,97,96,90,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU061,Student_061,99,8,100,86,92,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU062,Student_062,95,8,86,99,93,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU063,Student_063,88,8,91,93,92,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU064,Student_064,94,7,81,98,80,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU065,Student_065,94,8,90,94,83,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU066,Student_066,94,7,90,85,97,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU067,Student_067,95,6,97,86,83,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU068,Student_068,90,8,83,88,81,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU069,Student_069,89,8,91,94,80,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU070,Student_070,98,8,84,96,93,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU071,Student_071,97,7,87,98,87,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU072,Student_072,89,6,97,85,97,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU073,Student_073,97,7,84,92,80,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU074,Student_074,85,7,97,100,93,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU075,Student_075,93,7,84,87,85,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+STU076,Student_076,92,4,85,86,73,GOOD,LOW,Maintain attendance and continue regular study.
+STU077,Student_077,85,6,66,91,65,GOOD,LOW,Maintain attendance and continue regular study.
+STU078,Student_078,82,7,66,77,86,GOOD,LOW,Maintain attendance and continue regular study.
+STU079,Student_079,86,5,82,78,75,GOOD,LOW,Maintain attendance and continue regular study.
+STU080,Student_080,81,6,76,84,85,GOOD,LOW,Maintain attendance and continue regular study.
+STU081,Student_081,81,5,85,83,69,GOOD,LOW,Maintain attendance and continue regular study.
+STU082,Student_082,90,4,76,86,87,GOOD,LOW,Maintain attendance and continue regular study.
+STU083,Student_083,88,4,85,75,67,GOOD,LOW,Maintain attendance and continue regular study.
+STU084,Student_084,79,4,65,87,71,GOOD,LOW,Maintain attendance and continue regular study.
+STU085,Student_085,87,5,81,73,67,GOOD,LOW,Maintain attendance and continue regular study.
+STU086,Student_086,79,7,75,87,73,GOOD,LOW,Maintain attendance and continue regular study.
+STU087,Student_087,81,5,74,79,82,GOOD,LOW,Maintain attendance and continue regular study.
+STU088,Student_088,84,6,69,82,71,GOOD,LOW,Maintain attendance and continue regular study.
+STU089,Student_089,92,5,88,86,65,GOOD,LOW,Maintain attendance and continue regular study.
+STU090,Student_090,80,6,82,74,70,GOOD,LOW,Maintain attendance and continue regular study.
+STU091,Student_091,75,4,81,91,87,GOOD,LOW,Maintain attendance and continue regular study.
+STU092,Student_092,75,6,67,81,74,GOOD,LOW,Maintain attendance and continue regular study.
+STU093,Student_093,81,5,84,89,72,GOOD,LOW,Maintain attendance and continue regular study.
+STU094,Student_094,79,4,75,85,68,GOOD,LOW,Maintain attendance and continue regular study.
+STU095,Student_095,77,7,73,89,74,GOOD,LOW,Maintain attendance and continue regular study.
+STU096,Student_096,78,6,80,85,68,GOOD,LOW,Maintain attendance and continue regular study.
+STU097,Student_097,92,5,76,91,79,GOOD,LOW,Maintain attendance and continue regular study.
+STU098,Student_098,93,6,67,72,89,GOOD,LOW,Maintain attendance and continue regular study.
+STU099,Student_099,82,5,75,83,81,GOOD,LOW,Maintain attendance and continue regular study.
+STU100,Student_100,90,7,75,75,71,GOOD,LOW,Maintain attendance and continue regular study.
+STU101,Student_101,79,7,73,80,68,GOOD,LOW,Maintain attendance and continue regular study.
+STU102,Student_102,85,6,79,78,69,GOOD,LOW,Maintain attendance and continue regular study.
+STU103,Student_103,92,6,72,80,69,GOOD,LOW,Maintain attendance and continue regular study.
+STU104,Student_104,92,4,73,79,83,GOOD,LOW,Maintain attendance and continue regular study.
+STU105,Student_105,90,5,78,81,85,GOOD,LOW,Maintain attendance and continue regular study.
+STU106,Student_106,85,4,77,93,70,GOOD,LOW,Maintain attendance and continue regular study.
+STU107,Student_107,75,6,82,92,73,GOOD,LOW,Maintain attendance and continue regular study.
+STU108,Student_108,88,7,80,80,65,GOOD,LOW,Maintain attendance and continue regular study.
+STU109,Student_109,76,5,85,73,86,GOOD,LOW,Maintain attendance and continue regular study.
+STU110,Student_110,83,6,65,94,71,GOOD,LOW,Maintain attendance and continue regular study.
+STU111,Student_111,77,5,82,94,65,GOOD,LOW,Maintain attendance and continue regular study.
+STU112,Student_112,78,5,75,77,79,GOOD,LOW,Maintain attendance and continue regular study.
+STU113,Student_113,81,5,87,79,67,GOOD,LOW,Maintain attendance and continue regular study.
+STU114,Student_114,93,5,68,70,73,GOOD,LOW,Maintain attendance and continue regular study.
+STU115,Student_115,88,4,70,87,88,GOOD,LOW,Maintain attendance and continue regular study.
+STU116,Student_116,85,6,76,80,84,GOOD,LOW,Maintain attendance and continue regular study.
+STU117,Student_117,90,6,80,80,73,GOOD,LOW,Maintain attendance and continue regular study.
+STU118,Student_118,76,7,69,70,80,GOOD,LOW,Maintain attendance and continue regular study.
+STU119,Student_119,84,5,83,71,78,GOOD,LOW,Maintain attendance and continue regular study.
+STU120,Student_120,77,6,80,89,67,GOOD,LOW,Maintain attendance and continue regular study.
+STU121,Student_121,85,6,70,72,82,GOOD,LOW,Maintain attendance and continue regular study.
+STU122,Student_122,80,6,81,86,77,GOOD,LOW,Maintain attendance and continue regular study.
+STU123,Student_123,78,5,65,84,72,GOOD,LOW,Maintain attendance and continue regular study.
+STU124,Student_124,92,5,69,89,82,GOOD,LOW,Maintain attendance and continue regular study.
+STU125,Student_125,79,5,69,91,83,GOOD,LOW,Maintain attendance and continue regular study.
+STU126,Student_126,76,4,73,79,70,GOOD,LOW,Maintain attendance and continue regular study.
+STU127,Student_127,79,7,70,75,87,GOOD,LOW,Maintain attendance and continue regular study.
+STU128,Student_128,76,5,86,74,78,GOOD,LOW,Maintain attendance and continue regular study.
+STU129,Student_129,82,6,82,72,79,GOOD,LOW,Maintain attendance and continue regular study.
+STU130,Student_130,88,5,75,74,87,GOOD,LOW,Maintain attendance and continue regular study.
+STU131,Student_131,91,4,80,70,66,GOOD,LOW,Maintain attendance and continue regular study.
+STU132,Student_132,83,6,89,70,70,GOOD,LOW,Maintain attendance and continue regular study.
+STU133,Student_133,91,5,67,83,86,GOOD,LOW,Maintain attendance and continue regular study.
+STU134,Student_134,88,5,70,77,72,GOOD,LOW,Maintain attendance and continue regular study.
+STU135,Student_135,90,5,76,75,82,GOOD,LOW,Maintain attendance and continue regular study.
+STU136,Student_136,92,7,67,76,88,GOOD,LOW,Maintain attendance and continue regular study.
+STU137,Student_137,81,4,89,72,76,GOOD,LOW,Maintain attendance and continue regular study.
+STU138,Student_138,94,5,68,75,71,GOOD,LOW,Maintain attendance and continue regular study.
+STU139,Student_139,88,5,78,70,82,GOOD,LOW,Maintain attendance and continue regular study.
+STU140,Student_140,79,6,74,93,76,GOOD,LOW,Maintain attendance and continue regular study.
+STU141,Student_141,87,4,80,86,79,GOOD,LOW,Maintain attendance and continue regular study.
+STU142,Student_142,83,6,80,74,68,GOOD,LOW,Maintain attendance and continue regular study.
+STU143,Student_143,79,5,76,84,77,GOOD,LOW,Maintain attendance and continue regular study.
+STU144,Student_144,78,6,74,71,67,GOOD,LOW,Maintain attendance and continue regular study.
+STU145,Student_145,93,4,67,86,79,GOOD,LOW,Maintain attendance and continue regular study.
+STU146,Student_146,93,4,77,90,83,GOOD,LOW,Maintain attendance and continue regular study.
+STU147,Student_147,89,7,82,70,69,GOOD,LOW,Maintain attendance and continue regular study.
+STU148,Student_148,85,5,65,73,77,GOOD,LOW,Maintain attendance and continue regular study.
+STU149,Student_149,77,5,82,78,65,GOOD,LOW,Maintain attendance and continue regular study.
+STU150,Student_150,76,4,89,89,81,GOOD,LOW,Maintain attendance and continue regular study.
+STU151,Student_151,68,4,72,59,59,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU152,Student_152,80,3,60,77,64,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU153,Student_153,87,3,62,62,66,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU154,Student_154,75,5,51,70,57,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU155,Student_155,84,3,64,61,74,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU156,Student_156,81,2,65,61,62,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU157,Student_157,88,2,66,69,54,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU158,Student_158,74,3,66,65,58,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU159,Student_159,76,3,66,58,68,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU160,Student_160,76,3,68,57,67,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU161,Student_161,70,5,62,58,53,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU162,Student_162,78,5,50,62,56,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU163,Student_163,73,4,52,63,55,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU164,Student_164,82,2,64,72,71,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU165,Student_165,85,2,56,75,70,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU166,Student_166,80,2,59,57,55,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU167,Student_167,85,2,58,61,50,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU168,Student_168,74,2,65,63,52,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU169,Student_169,83,3,65,56,67,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU170,Student_170,76,3,67,67,64,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU171,Student_171,67,3,51,55,63,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU172,Student_172,77,2,64,76,69,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU173,Student_173,70,3,57,60,67,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU174,Student_174,71,4,62,63,70,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU175,Student_175,85,3,64,57,50,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU176,Student_176,76,2,73,79,54,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU177,Student_177,83,3,65,77,54,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU178,Student_178,86,4,55,70,67,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU179,Student_179,68,3,50,67,52,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU180,Student_180,83,4,66,66,52,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU181,Student_181,88,2,70,63,57,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU182,Student_182,68,5,57,64,69,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU183,Student_183,86,3,59,78,67,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU184,Student_184,65,2,60,78,55,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU185,Student_185,81,5,53,57,54,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU186,Student_186,65,4,54,68,58,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU187,Student_187,65,5,69,64,54,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU188,Student_188,77,2,64,73,53,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU189,Student_189,68,3,60,69,52,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU190,Student_190,70,2,69,72,50,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU191,Student_191,75,3,53,62,62,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU192,Student_192,71,4,67,72,62,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU193,Student_193,87,4,61,69,57,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU194,Student_194,70,4,51,78,69,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU195,Student_195,71,4,55,68,71,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU196,Student_196,83,3,64,67,70,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU197,Student_197,80,2,69,64,73,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU198,Student_198,66,4,67,64,63,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU199,Student_199,72,2,63,71,63,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU200,Student_200,77,4,57,72,68,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU201,Student_201,77,4,73,55,53,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU202,Student_202,72,3,55,70,69,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU203,Student_203,77,5,55,68,66,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU204,Student_204,71,4,50,72,52,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU205,Student_205,68,2,56,67,53,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU206,Student_206,68,5,57,65,59,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU207,Student_207,65,2,52,79,60,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU208,Student_208,86,3,64,75,63,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU209,Student_209,68,2,56,72,65,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU210,Student_210,75,3,53,57,61,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU211,Student_211,72,3,64,69,53,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU212,Student_212,65,5,63,57,64,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU213,Student_213,80,2,64,70,61,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU214,Student_214,88,2,51,68,55,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU215,Student_215,78,2,58,77,67,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU216,Student_216,81,3,63,58,61,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU217,Student_217,70,2,54,74,69,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU218,Student_218,87,3,61,79,52,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU219,Student_219,78,2,68,79,69,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU220,Student_220,70,5,58,56,67,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU221,Student_221,74,4,59,58,69,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU222,Student_222,72,2,56,74,69,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU223,Student_223,65,4,62,78,61,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU224,Student_224,73,5,50,66,63,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU225,Student_225,79,2,69,55,72,AVERAGE,MEDIUM,Increase study hours and improve assignment completion.
+STU226,Student_226,54,3,47,33,33,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU227,Student_227,69,2,43,46,42,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU228,Student_228,54,3,38,30,36,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU229,Student_229,51,1,32,44,35,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU230,Student_230,46,3,41,64,44,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU231,Student_231,48,3,49,64,46,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU232,Student_232,65,3,31,48,34,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU233,Student_233,48,2,37,37,52,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU234,Student_234,47,1,55,34,48,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU235,Student_235,68,3,42,32,34,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU236,Student_236,59,3,53,31,54,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU237,Student_237,69,2,43,53,47,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU238,Student_238,66,2,36,33,43,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU239,Student_239,54,1,38,64,35,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU240,Student_240,64,2,52,33,32,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU241,Student_241,59,3,43,60,44,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU242,Student_242,65,3,34,30,39,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU243,Student_243,69,1,55,38,43,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU244,Student_244,51,2,53,59,46,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU245,Student_245,64,1,36,50,35,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU246,Student_246,69,3,39,31,58,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU247,Student_247,48,1,44,54,32,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU248,Student_248,56,2,32,30,41,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU249,Student_249,63,3,32,47,47,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU250,Student_250,52,1,40,46,32,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU251,Student_251,54,3,47,37,56,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU252,Student_252,62,1,52,44,44,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU253,Student_253,62,2,55,38,35,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU254,Student_254,49,1,47,46,51,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU255,Student_255,48,2,38,60,41,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU256,Student_256,51,1,54,41,41,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU257,Student_257,60,1,59,38,49,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU258,Student_258,54,3,31,52,57,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU259,Student_259,52,3,38,60,50,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU260,Student_260,46,2,34,47,44,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU261,Student_261,57,3,33,43,39,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU262,Student_262,48,2,51,56,32,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU263,Student_263,60,2,39,49,34,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU264,Student_264,67,1,59,34,39,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU265,Student_265,69,2,32,42,50,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU266,Student_266,51,3,30,31,40,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU267,Student_267,51,1,50,50,33,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU268,Student_268,53,2,46,56,51,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU269,Student_269,55,3,53,44,31,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU270,Student_270,66,2,52,57,31,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU271,Student_271,65,3,40,53,36,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU272,Student_272,62,2,47,63,41,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU273,Student_273,57,3,57,35,50,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU274,Student_274,65,1,43,59,59,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU275,Student_275,66,1,50,32,45,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU276,Student_276,49,3,45,55,33,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU277,Student_277,67,3,57,52,33,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU278,Student_278,53,1,37,57,37,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU279,Student_279,65,1,38,43,44,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU280,Student_280,66,1,33,32,53,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU281,Student_281,61,2,41,41,42,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU282,Student_282,65,1,56,42,52,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU283,Student_283,64,2,35,49,54,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU284,Student_284,58,2,43,57,47,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU285,Student_285,58,1,32,55,42,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU286,Student_286,56,1,49,64,53,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU287,Student_287,69,2,52,45,53,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU288,Student_288,68,2,47,35,57,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU289,Student_289,51,3,38,41,32,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU290,Student_290,59,1,37,44,59,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU291,Student_291,54,3,43,59,56,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU292,Student_292,59,1,38,48,52,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU293,Student_293,47,3,31,47,56,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU294,Student_294,69,2,40,34,54,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU295,Student_295,57,3,46,57,53,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU296,Student_296,55,2,32,37,52,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU297,Student_297,66,2,33,33,46,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU298,Student_298,49,1,40,50,37,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU299,Student_299,53,3,51,47,30,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+STU300,Student_300,66,2,59,40,48,AT RISK,HIGH,"Improve attendance, study hours, and assignment completion."
+123,arun,100.0,6.0,100.0,100.0,100.0,EXCELLENT,VERY LOW,Maintain your current study pattern and continue regular practice.
+>>>>>>> b3440ee6ff4b9bdc330f611408cecb92f28ebc19

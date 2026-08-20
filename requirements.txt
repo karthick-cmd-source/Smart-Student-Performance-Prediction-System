@@ -1,6 +1,9 @@
 pandas
 numpy
 scikit-learn
+<<<<<<< HEAD
 joblib
 requests
+=======
+>>>>>>> b3440ee6ff4b9bdc330f611408cecb92f28ebc19
 matplotlib
