@@ -1,0 +1,138 @@
+{
+  "name": "Student Performance - Gemini 2.5 Flash + Gmail",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "student-performance",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "Webhook",
+      "name": "Student Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -700,
+        0
+      ],
+      "webhookId": "student-performance"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Student ID: {{$json.student_id}}\nStudent Name: {{$json.name}}\nStudent Email: {{$json.email}}\nAttendance: {{$json.attendance}}%\nStudy Hours: {{$json.study_hours}}\nInternal Marks: {{$json.internal_marks}}%\nAssignment Completion: {{$json.assignment_completion}}%\nPrevious Performance: {{$json.previous_performance}}%\nML Prediction: {{$json.prediction}}\nRisk Level: {{$json.risk}}",
+        "options": {
+          "systemMessage": "You are an academic advisor. Generate a personalized academic recommendation in 2 to 4 sentences. Mention the student's strengths, identify the main improvement area, and provide practical actions. Use the supplied student values and ML prediction. The recommendation must be personalized to the student. Do not use fixed rule-based recommendation text. Do not mention that you are an AI. Return only the recommendation text."
+        }
+      },
+      "id": "Agent",
+      "name": "Gemini AI Recommendation",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        -430,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.5-flash",
+        "options": {}
+      },
+      "id": "Gemini",
+      "name": "Google Gemini 2.5 Flash",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -430,
+        230
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "send",
+        "sendTo": "={{ $('Student Webhook').first().json.email }}",
+        "subject": "=Student Performance Recommendation - {{ $('Student Webhook').first().json.prediction }}",
+        "emailType": "text",
+        "message": "=Hello {{ $('Student Webhook').first().json.name }},\n\nYour Smart Student Performance Prediction result is:\n\nPrediction: {{ $('Student Webhook').first().json.prediction }}\nRisk Level: {{ $('Student Webhook').first().json.risk }}\n\nAI Recommendation:\n{{ $('Gemini AI Recommendation').first().json.output }}\n\nStudent ID: {{ $('Student Webhook').first().json.student_id }}\nAttendance: {{ $('Student Webhook').first().json.attendance }}%\nStudy Hours: {{ $('Student Webhook').first().json.study_hours }}\nInternal Marks: {{ $('Student Webhook').first().json.internal_marks }}%\nAssignment Completion: {{ $('Student Webhook').first().json.assignment_completion }}%\nPrevious Performance: {{ $('Student Webhook').first().json.previous_performance }}%\n\nRegards,\nSmart Student Performance Prediction System"
+      },
+      "id": "Gmail",
+      "name": "Send Recommendation Email",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        -100,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { recommendation: $('Gemini AI Recommendation').first().json.output || '', prediction: $('Student Webhook').first().json.prediction, risk: $('Student Webhook').first().json.risk, email_sent: true } }}",
+        "options": {}
+      },
+      "id": "Respond",
+      "name": "Respond to Python",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        170,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Student Webhook": {
+      "main": [
+        [
+          {
+            "node": "Gemini AI Recommendation",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemini AI Recommendation": {
+      "main": [
+        [
+          {
+            "node": "Send Recommendation Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini 2.5 Flash": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Gemini AI Recommendation",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send Recommendation Email": {
+      "main": [
+        [
+          {
+            "node": "Respond to Python",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "versionId": "student-performance-gemini-gmail-v2"
+}
